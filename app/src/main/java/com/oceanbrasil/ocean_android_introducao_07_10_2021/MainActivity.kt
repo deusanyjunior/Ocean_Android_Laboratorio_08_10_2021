@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(segundaTelaIntent)
         }
 
-        btLigar.setOnClickListener{
+        btLigar.setOnClickListener {
             val ligarIntent = Intent(Intent.ACTION_DIAL)
             ligarIntent.data = Uri.parse("tel:188")
             startActivity(ligarIntent)
