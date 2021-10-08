@@ -42,6 +42,7 @@
         android:layout_marginRight="8dp"
         android:ems="10"
         android:hint="@string/tvTextoEditavelDica"
+        android:autofillHints="name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/etTextoEditavel"

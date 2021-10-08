@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ocean_Android_Introducao_07_10_2021</string>
+    <string name="app_name">MyAndroidApp</string>
     <string name="tvTextoTopo">Hello World!</string>
     <string name="etTextoEditavel">New Text</string>
     <string name="btAtualizar">Update</string>

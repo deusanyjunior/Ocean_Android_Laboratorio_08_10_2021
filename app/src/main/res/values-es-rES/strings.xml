@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiAndroidApp</string>
+    <string name="tvTextoTopo">Hola Mundo!</string>
+    <string name="etTextoEditavel">Nuevo Texto</string>
+    <string name="tvTextoEditavelDica">Introduzca un nuevo texto aquí!</string>
+    <string name="btAtualizar">Actualizar</string>
+</resources>
