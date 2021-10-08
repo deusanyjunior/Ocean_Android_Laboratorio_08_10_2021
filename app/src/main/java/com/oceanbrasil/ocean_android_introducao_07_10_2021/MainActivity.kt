@@ -13,9 +13,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Buscar o botão pelo ID
-        val btEnviar = findViewById<Button>(R.id.btEnviar)
-        val etTexto = findViewById<EditText>(R.id.etTexto)
-        val tvResultado = findViewById<TextView>(R.id.tvResultado)
+        val btEnviar = findViewById<Button>(R.id.btAtualizar)
+        val etTexto = findViewById<EditText>(R.id.etTextoEditavel)
+        val tvResultado = findViewById<TextView>(R.id.tvTextoTopo)
 
         btEnviar.setOnClickListener {
             /*

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvResultado"
+        android:id="@+id/tvTextoTopo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -19,20 +19,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btEnviar"
+        android:id="@+id/btAtualizar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Send"
+        android:text="@string/btAtualizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etTexto" />
+        app:layout_constraintTop_toBottomOf="@+id/etTextoEditavel" />
 
     <EditText
-        android:id="@+id/etTexto"
+        android:id="@+id/etTextoEditavel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -41,11 +41,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
+        android:hint="@string/tvTextoEditavelDica"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
+        android:text="@string/etTextoEditavel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvResultado" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTextoTopo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
