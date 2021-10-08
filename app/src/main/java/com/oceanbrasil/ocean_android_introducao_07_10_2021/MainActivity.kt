@@ -1,5 +1,7 @@
 package com.oceanbrasil.ocean_android_introducao_07_10_2021
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -16,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         val btEnviar = findViewById<Button>(R.id.btAtualizar)
         val etTexto = findViewById<EditText>(R.id.etTextoEditavel)
         val tvResultado = findViewById<TextView>(R.id.tvTextoTopo)
+        val btSegundaTela = findViewById<Button>(R.id.btSegundaTela)
+        val btLigar = findViewById<Button>(R.id.btLigar)
 
         btEnviar.setOnClickListener {
             /*
@@ -28,6 +32,17 @@ class MainActivity : AppCompatActivity() {
             tvResultado.text = textoDigitado
         }
 
+        btSegundaTela.setOnClickListener {
+            val segundaTelaIntent = Intent(this,SecondActivity::class.java)
+            startActivity(segundaTelaIntent)
+        }
+
+        btLigar.setOnClickListener{
+            val ligarIntent = Intent(Intent.ACTION_DIAL)
+            ligarIntent.data = Uri.parse("tel:188")
+            startActivity(ligarIntent)
+        }
 
     }
 }
+

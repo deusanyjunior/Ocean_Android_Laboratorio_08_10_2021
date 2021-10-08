@@ -4,4 +4,6 @@
     <string name="etTextoEditavel">New Text</string>
     <string name="btAtualizar">Update</string>
     <string name="tvTextoEditavelDica">Insert a new text here!</string>
+    <string name="tvSegundaTela">Second screen!</string>
+    <string name="tvTerceiraTela">Third Screen</string>
 </resources>

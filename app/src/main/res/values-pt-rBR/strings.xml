@@ -5,4 +5,6 @@
     <string name="etTextoEditavel">Novo Texto</string>
     <string name="tvTextoEditavelDica">Insira um novo texto aqui!</string>
     <string name="btAtualizar">Atualizar</string>
+    <string name="tvSegundaTela">Segunda tela!</string>
+    <string name="tvTerceiraTela">Terceira tela!</string>
 </resources>

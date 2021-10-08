@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Samsung/Documents/GitHub/Ocean_Android_Laboratorio_08_10_2021/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Samsung/Documents/GitHub/Ocean_Android_Laboratorio_08_10_2021/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Samsung/Documents/GitHub/Ocean_Android_Laboratorio_08_10_2021/app/src/main/res/layout/activity_second.xml" value="0.225" />
+        <entry key="..\:/Users/Samsung/Documents/GitHub/Ocean_Android_Laboratorio_08_10_2021/app/src/main/res/layout/activity_third.xml" value="0.225" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
