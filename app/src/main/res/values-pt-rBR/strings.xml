@@ -4,4 +4,5 @@
     <string name="tvTextoTopo">Olá Mundo!</string>
     <string name="etTextoEditavel">Novo Texto</string>
     <string name="tvTextoEditavelDica">Insira um novo texto aqui!</string>
+    <string name="btAtualizar">Atualizar</string>
 </resources>
