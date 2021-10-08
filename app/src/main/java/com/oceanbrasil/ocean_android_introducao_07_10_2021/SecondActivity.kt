@@ -20,9 +20,11 @@ class SecondActivity : AppCompatActivity() {
 
         /*
         Exercício da semana:
+            - Revisitar o design das telas e renomear botões, strings, etc
             - Adicionar um EditText na segunda tela
             - Enviar o valor dele para a Terceira
             - Exibir o valor dele no TextView da Terceira tela! =)
+            -
          */
     }
 }
